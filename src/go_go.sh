@@ -19,6 +19,7 @@ chmod +x *
 pwd
 while true
 do
+	dbus-uuidgen > /var/lib/dbus/machine-id
 	echo "NEW ..............."
 	cd /root/SDA_ALL/site_5/ && cp /root/0nord_pass /root/SDA_ALL/site_5/0nord_pass
 	timeout 6m python3 48_ads.py
