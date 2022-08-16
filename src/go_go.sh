@@ -20,6 +20,6 @@ pwd
 while true
 do
 	echo "NEW ..............."
-	cd /root/SDA_ALL/site_5/
-	timeout 5m python3 48_ads.py
+	cd /root/SDA_ALL/site_5/ && cp /root/0nord_pass /root/SDA_ALL/site_5/0nord_pass
+	timeout 6m python3 48_ads.py
 done
