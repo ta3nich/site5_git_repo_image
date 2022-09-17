@@ -10,9 +10,9 @@ cd /root/
 git clone https://github.com/GH0STAV0/SDA_ALL.git
 
 
-cd /root/SDA_ALL/
-#rm -rf site_5
-git reset --hard
+# cd /root/SDA_ALL/
+# #rm -rf site_5
+# git reset --hard
 git pull
 cd /root/SDA_ALL/site_5/ && cp /root/0nord_pass /root/SDA_ALL/site_5/0nord_pass
 chmod +x *
