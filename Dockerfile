@@ -87,7 +87,7 @@ EXPOSE $VNC_PORT $NO_VNC_PORT
 #$SSH_PORT $SUPER_VISOR__PORT
 
 
-
+RUN mkdir /root/K_EYS
 RUN apt-get clean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
