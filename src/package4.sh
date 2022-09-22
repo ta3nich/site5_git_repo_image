@@ -61,7 +61,7 @@ echo "Installing  xfce "
 
 
 #apt 
-#rm -rf /var/lib/{apt,dpkg,cache,log}/
+
 
 # echo "Installing  dbus-x11 xauth xinit x11-xserver-utils xdg-utils"
 # #apt-get install -y dbus-x11 xauth xinit x11-xserver-utils xdg-utils--no-cache=true
@@ -72,3 +72,4 @@ apt-get autoremove --yes
 apt-get autoclean 
 apt-get autoremove --yes
 rm -rf /var/lib/apt/lists/*
+rm -rf /var/lib/{apt,dpkg,cache,log}/
