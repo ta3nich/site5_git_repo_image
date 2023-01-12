@@ -95,6 +95,7 @@ RUN apt-get clean \
 
 
 
+CMD ["/usr/bin/supervisord"]
 
-CMD ["/lib/systemd/systemd"]
+#CMD ["/lib/systemd/systemd"]
 
